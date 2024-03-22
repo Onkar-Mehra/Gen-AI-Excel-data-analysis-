@@ -17,7 +17,7 @@ CORS(app)
 # App secret key
 app.secret_key = os.getenv("APP_SECRET_KEY") 
 
-filename1='Spend data_TCL.xlsx'
+filename1='filename.xlsx'
 xls=pd.ExcelFile(filename1)
 sheetnames=xls.sheet_names
 number_of_sheets = len(sheetnames)
